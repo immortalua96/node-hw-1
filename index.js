@@ -1,18 +1,5 @@
 const contacts = require('./contacts.js');
 
-// const { Command } = require('commander');
-// const program = new Command();
-// program
-//   .option('-a, --action <type>', 'choose action')
-//   .option('-i, --id <type>', 'user id')
-//   .option('-n, --name <type>', 'user name')
-//   .option('-e, --email <type>', 'user email')
-//   .option('-p, --phone <type>', 'user phone');
-
-// program.parse(process.argv);
-
-// const argv = program.opts();
-
 const invokeAction = async ({ action, id, name, email, phone }) => {
   switch (action) {
     case 'list':
@@ -44,7 +31,7 @@ const invokeAction = async ({ action, id, name, email, phone }) => {
   }
 };
 
-// invokeAction(argv);
+invokeAction(argv);
 
 // invokeAction({ action: 'list' });
 
@@ -52,9 +39,9 @@ const invokeAction = async ({ action, id, name, email, phone }) => {
 
 // invokeAction({
 //   action: 'add',
-//   name: 'Melon',
-//   email: 'melon@gmail.com',
-//   phone: '(050) 999-9999',
+//   name: 'Mango ',
+//   email: 'mango@gmail.com',
+//   phone: '322-22-22',
 // });
 
 // invokeAction({
@@ -67,5 +54,5 @@ const invokeAction = async ({ action, id, name, email, phone }) => {
 
 // invokeAction({
 //   action: 'remove',
-//   id: '9BXQsTnGZ1vkuf8KBvKeB',
+//   id: 'qdggE76Jtbfd9eWJHrssH',
 // });
