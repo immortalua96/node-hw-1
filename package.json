@@ -1,0 +1,27 @@
+{
+  "name": "hw-1",
+  "version": "1.0.0",
+  "description": "node_hw_01\r Получаем и выводим весь список контактов в виде таблицы (console.table)\r node index.js --action list",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev" :" nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/immortalua96/node-hw-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/immortalua96/node-hw-1/issues"
+  },
+  "homepage": "https://github.com/immortalua96/node-hw-1#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "nanoid": "^3.3.6"
+  }
+}
